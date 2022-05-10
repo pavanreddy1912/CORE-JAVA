@@ -7,21 +7,25 @@ class car1{
 	private String color;
 	
 	public car1() {
-		
+		super();
 	}
 	public car1(String brand) {
+		super();
 		this.brand=brand;
 	}
 	public car1(String brand,int cost) {
+		super();
 		this.brand=brand;
 		this.cost=cost;
 	}
 	public car1(String brand,int cost,String name) {
+		super();
 		this.brand=brand;
 		this.cost=cost;
 		this.name=name;
 	}
 	public car1(String brand,int cost,String name,String color) {
+		super();
 		this.brand=brand;
 		this.cost=cost;
 		this.name=name;
