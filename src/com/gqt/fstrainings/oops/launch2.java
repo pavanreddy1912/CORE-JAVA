@@ -104,7 +104,7 @@ class human1{
 	brain br = new brain(3.02f,100);
 	heart1 hr = new heart1(100,120);
 }
-class student1 extends human1{
+class student2 extends human1{
 	void hasbook(book1 bk) {
 		System.out.println(bk.getName());
 		System.out.println(bk.getAuthor());
@@ -117,7 +117,7 @@ class student1 extends human1{
 public class launch2 {
 	public static void main(String[] args) {
 		
-		student1 s = new student1();
+		student2 s = new student2();
 		book1 bk = new book1("pavan","banu");
 		bike bi = new bike("bmw",400000);
 		
