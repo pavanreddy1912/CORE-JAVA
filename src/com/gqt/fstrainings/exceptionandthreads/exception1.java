@@ -1,4 +1,4 @@
-package com.gqt.fstrainings.oops;
+package com.gqt.fstrainings.exceptionandthreads;
 
 import java.util.Scanner;
 

@@ -8,10 +8,20 @@ public class singleletter {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String to print : ");
-		String s1=sc.next();
+		String s1=sc.nextLine();
 		s1.toCharArray();
-		for(int i=0;i<s1.length();i++) {
-			System.out.println(s1.charAt(i));
+		System.out.println("Enter the substring : ");
+		String s2 =sc.next();
+		for(int i=0;i<s1.length()-s2.length();i++) {
+			int j;
+			for(j=0;j<s2.length();j++) {
+				if(s1.charAt(i+j)!=s2.charAt(j)) {
+					break;
+				}
+			}
+			if(j==s2.length()) {
+				
+			}
 		}
 	}
 
